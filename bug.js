@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` component with custom camera controls.  The issue arises when trying to capture a photo after manipulating the zoom level.  After zooming, the captured image is either blank, distorted, or shows an entirely different scene than what's visible in the viewfinder. This is inconsistent and seems to depend on the device and the zoom level.
